@@ -1,0 +1,103 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: white;
+    text-align: left;
+    padding: 20px;
+}
+
+nav {
+    background: #444;
+    padding: 10px;
+    text-align: left;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f4a261;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #f4a261;
+    padding-bottom: 5px;
+}
+
+#perfil {
+    max-width: 20%;
+    border-radius: 40%;
+}
+
+#proyecto2{
+    text-align: center;
+}
+
+#umbrella{
+    max-width: 25%;
+    max-height: 25%;
+    border-radius: 10%;
+}
+
+#gilfriends{
+
+    max-width: 20%;
+    max-height: 30%;
+    border-radius: 10%;
+}
+
+ul {
+    padding-left: 20px;
+}
+p{
+    text-align: left;
+}
+
+.content{
+    text-align: left;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
